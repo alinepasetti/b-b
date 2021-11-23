@@ -21,19 +21,19 @@ body {
   width: 100%;
 }
 
-#center_navmenu li {
+#center_navmenu li:not(:last-child) {
   margin-right: 1.3em;
 }
 
 #profile_navmenu {
-  width: 25%;
+  width: 14%;
 }
 
 #profile_navmenu ul {
   justify-content: flex-end;
 }
 
-#profile_navmenu li {
+#profile_navmenu li:not(:first-child) {
   margin-left: 1em;
 }
 
